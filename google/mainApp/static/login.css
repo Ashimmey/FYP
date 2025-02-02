@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+  }
+  body{
+    background: #F0F4EF;
+    color: #000;
+  }
+#signup{
+    width: 30%;
+    height: max-content;
+    background-color: #b4cded;
+    background-position: center;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+#signup h1{
+    margin-bottom: 20px ;
+}
+
+.container{
+    padding: 10px;
+    justify-items: center;
+}
+.google button{
+    display: inline-block;
+    background: #344966;    
+    color: #F0F4EF;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background 0.5s,transform 0.5s;
+
+}
+.google a{
+    color: #F0F4EF;
+}
+.google button:hover{
+    background: #344966;
+  transform: translate(-10px);
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* .separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid black;
+    margin: 0 10px;
+} */
+
+.separator span {
+    font-weight: bold;
+    color: black;
+}
+.login-container{
+    margin: 20px;
+}
+
+.name{
+    display: grid;
+}
+.name input{
+    font-size: 24px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.email-password input{
+    border-radius: 5px;    
+    font-size: 24px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+.email-password{
+    display: grid;
+}
+.remember{
+    margin-top: 3px;
+    font-size: 12px;
+}
+.btn{
+    display: block;
+    margin: 30px auto;
+    width: fit-content;
+    background-color:  #344966;
+    padding: 14px 50px;
+    border-radius: 6px ;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s,transform 0.5s;
+}
+.btn:hover{
+    background: #344966;
+  transform: translate(-10px);
+}
+.login{
+    margin-left: 55px;
+}
+
+/* .container-fluid{
+    height: 100vh;
+    background-color: #F0F4EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid > div{
+    width: 85%;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.card{
+    width: 100%;
+    background-color: #344966;
+}
+
+.social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+

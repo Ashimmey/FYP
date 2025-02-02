@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+<body>
+<form>
+    <div id="signup">
+        <div class="container">
+            <h1>PitchPool</h1>
+            <h2>Welcome Back!</h2>
+            <div class="google">
+                <button>
+                <a href="{% url 'social:begin' 'google-oauth2' %}">Continue with Google</a>
+                </button>
+            </div>
+            <div class="separator">
+                <span>OR</span>
+            </div>
+        <div class="login-container">
+            <div class="name">
+                <div class="flname">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+                </div>
+                <div class="username">
+                    <input type="text" placeholder="Username">
+                </div>
+            </div>
+            <div class="email-password">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="password" id="" placeholder="Confirm Password">
+            </div>
+            <div class="remember">
+                <label><input type="checkbox">I agree to the Pitchpool User Agreement and
+                     Privacy Policy.</label>
+            </div>
+                <a href="#login"><button class="btn">Sign up</button></a>
+            <div class="login">
+                Already have an account?<a href="#login">Log In</a>
+            </div>
+        </div>    
+    </div>    
+</form>
+</body>
+{% endblock %}
